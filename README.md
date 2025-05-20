@@ -1,6 +1,7 @@
 
 ## NAME:MADHUPRIYA R
 ## REGNO:212224040177
+
 ## AIM :Use of Network commands in Real Time environment
 ## Software : Command Prompt And Network Protocol Analyzer
 ## Procedure: To do this EXPERIMENT- follows these steps:
@@ -27,9 +28,10 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
-## PROGRAM
+
+## Program 
+Client
 ~~~
-CLIENT
 import socket
 
 s = socket.socket()
@@ -43,8 +45,9 @@ while True:
     print(s.recv(4096).decode('utf-8'))
 
 s.close()
-
-SERVER
+~~~
+Server 
+~~~
 import socket
 from pythonping import ping
 
@@ -69,69 +72,32 @@ while True:
 c.close()
 ~~~
 
-
 ## Output
+### netstat
+![netstat](https://github.com/user-attachments/assets/f4eefdf5-13ee-42ae-828e-921f6f160b5b)
+### ipconfig
+![ipconfig](https://github.com/user-attachments/assets/5c89b140-9748-454f-8724-e91a669cacc0)
+### arp
+![arp](https://github.com/user-attachments/assets/e26358ad-dbe6-4650-bce4-d4b413ddb229)
+### getmac
+![getmac](https://github.com/user-attachments/assets/e30cd17f-351c-49d2-afad-115ba8d45097)
+### hostname
+![hostname](https://github.com/user-attachments/assets/72ac9cc1-6bcf-4f99-9eb0-a1340e7c9141)
+### netstat
+![nbstat](https://github.com/user-attachments/assets/3ed11b03-3af6-4ee2-854f-20778e35b51a)
+### nslookup
+![nslookup](https://github.com/user-attachments/assets/e381db08-eee6-45ac-9cc7-db5f451ee1fe)
+### png
+![png](https://github.com/user-attachments/assets/d901a342-baea-4461-9197-d8bddd11d3d7)
+### system info 
+![system info](https://github.com/user-attachments/assets/4060f4ab-841e-451d-8dfd-99a06f553a90)
+### traceert
+![tracert](https://github.com/user-attachments/assets/a54d6839-482f-4f13-8cd4-1fb507f950fb)
 
-netstat
-
-
-![image](https://github.com/user-attachments/assets/322cf1ac-9f6b-47b6-aec5-f87ca7689814)
-
-
-ipconfig
-
-
-<img width="960" alt="2025-05-19 (1)" src="https://github.com/user-attachments/assets/c921e247-e52d-4387-8934-1e3a25e620b4" />
-
-
-arp
-
-
-<img width="960" alt="2025-05-19 (2)" src="https://github.com/user-attachments/assets/3e2303d6-da7e-4c57-8987-f3d8cd79cedd" />
-
-
-getmac
-
-
-<img width="960" alt="2025-05-19 (3)" src="https://github.com/user-attachments/assets/7ea4eae1-fcc2-41d1-bbec-ffd4b6b1a7e3" />
-
-
-hostname
-
-<img width="960" alt="2025-05-19 (4)" src="https://github.com/user-attachments/assets/9a11d044-2984-46e0-b945-0ad83d784786" />
+### Program output 
+![Screenshot 2025-05-17 121029](https://github.com/user-attachments/assets/6aaf1d1c-5004-445c-afde-8a82c236f1a8)
 
 
-nbtstat
-<img width="960" alt="2025-05-19 (5)" src="https://github.com/user-attachments/assets/f4933a3f-3c74-492c-87c1-ccea5bac1eab" />
-
-
-nslookup
-
-
-![444752845-e381db08-eee6-45ac-9cc7-db5f451ee1fe](https://github.com/user-attachments/assets/46cfb1fc-4453-44c1-a4f3-a21c6bd5950d)
-
-png
-
-![444752855-d901a342-baea-4461-9197-d8bddd11d3d7](https://github.com/user-attachments/assets/7db2e19c-0d93-4a59-a95c-efc287bd8209)
-
-
-
-systeminfo
-
-
-![444752897-4060f4ab-841e-451d-8dfd-99a06f553a90](https://github.com/user-attachments/assets/74eaa302-dd46-4724-836d-6c8466ea5a68)
-
-
-
-tracert
-
-
-![444752973-a54d6839-482f-4f13-8cd4-1fb507f950fb](https://github.com/user-attachments/assets/c02bfcf6-cd67-4ac7-80b5-16f2fafefd8d)
-
-
-
-Program output
-![444753481-6aaf1d1c-5004-445c-afde-8a82c236f1a8](https://github.com/user-attachments/assets/ddff1524-c524-4278-9830-b8c0d67ef263)
 
 
 ## Result
