@@ -28,8 +28,8 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 ## PROGRAM
-CLIENT
 ~~~
+CLIENT
 import socket
 
 s = socket.socket()
@@ -69,8 +69,12 @@ while True:
 c.close()
 ~~~
 
+
 ## Output
+
 netstat
+
+
 ![image](https://github.com/user-attachments/assets/322cf1ac-9f6b-47b6-aec5-f87ca7689814)
 
 
